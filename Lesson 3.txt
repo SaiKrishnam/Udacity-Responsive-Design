@@ -1,0 +1,9 @@
+--> 
+3ways to add media rules onto the page 
+
+1.@import--very bad perfomance , so avoid it
+2.@media--few large http requests
+3.link stylesheets--many small http requests
+
+Most famous media queries----1. min-width,max-width
+
