@@ -1,9 +1,16 @@
---> 
-3ways to add media rules onto the page 
+--> 3ways to add media rules onto the page 
 
 1.@import--very bad perfomance , so avoid it
 2.@media--few large http requests
 3.link stylesheets--many small http requests
 
-Most famous media queries----1. min-width,max-width
+--->Most famous media queries----1. min-width,max-width (based on size of browser window)
 
+others like below are strongly discouraged(based on size of device)
+1.min-device-width 
+2.max-device-width 
+
+---> You can change the whole layout of the page using media queries, responsive design.
+-->How many breakpoints and where is very important for any site ?????
+
+@media screen and [write css width with 'and']
