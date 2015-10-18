@@ -14,3 +14,17 @@ others like below are strongly discouraged(based on size of device)
 -->How many breakpoints and where is very important for any site ?????
 
 @media screen and [write css width with 'and']
+
+-->flex helps make responsive design ,
+parentdiv{
+display: flex
+} (3divs in a parent div) then the 3 divs will not wrap and instead resize irrespective of size of viewport.
+flex-wrap:wrap , will wrap to next line .
+
+flex can change order of elements using 'order' attribute.
+
+.css-class{order:4}
+
+
+
+
